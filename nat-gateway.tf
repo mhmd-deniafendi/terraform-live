@@ -1,6 +1,6 @@
 # EIP (Elastic IP Address)
 resource "aws_eip" "eip-bibit" {
-  depends_on = [aws_internet_gateway.aws_internet_gateway]  
+  depends_on = [aws_internet_gateway.igw-vpc-bibit]  
 }
 
 # Create internet gateway (Jika dibutuhkan untuk terhubung ke internet)
