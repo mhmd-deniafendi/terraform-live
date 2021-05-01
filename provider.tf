@@ -3,7 +3,7 @@ provider "aws" {
   region = "ap-southeast-1"
 }
 
-# Otional untuk menentukan versi terraform
+# Optional untuk menentukan versi terraform
 terraform {
   required_providers {
     aws = {
